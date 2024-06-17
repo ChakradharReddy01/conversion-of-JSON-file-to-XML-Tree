@@ -1,0 +1,3 @@
+Here it is the final code I changed this code by considering some changes.
+Here I have handled to avoid printing of object name for first object.
+And for parse tree structure there is a inbuilt library minidom I have Chat-Gpt for clear understanding of library.
