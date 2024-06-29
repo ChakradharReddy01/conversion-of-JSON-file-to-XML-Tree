@@ -1,25 +1,51 @@
+
 {
-    "organization": {
-        "name": "Securin",
-        "type": "Inc",
-        "building_number": 4,
-        "floating": -17.4,
-        "null_test": null
-    },
-    "security_related": true,
-    "array_example0": ["red", "green", "blue", "black"],
-    "array_example1": [
-        1,
-        "red",
-        [
-            [
+    "number": 100,
+    
+    "string": "hello world",
+    
+    "boolean": true,
+    
+    "array": [1, 2, 3, 4, 5],
+    
+    "null": null,
+    
+    "object": {
+        "key": "value",
+        "profile": {
+            "firtname": "Bekkem",
+            "lastname": "Chakradhar",
+            "age": 21,
+            "college": ["sathyabama university" , 
                 {
-                    "nested": true
+                    "city" : "chennai",
+                    "state" : "tamiladu",
+                    "zip": 600119
                 }
-            ],
-            {
-                "obj": false
+            ]
             }
-        ]
+    },
+    
+    "nestedArray": [
+    {
+        "id": 1,
+        "name": "Chakradhar_reddy",
+        "permanent_address": {
+            "street": "Sai_nagar",
+            "city": "Kurnool",
+            "state": "Andhra pradesh",
+            "zip": "518002"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Chakradhar_reddy_2",
+        "present_address": {
+            "street": "Hyderabad",
+            "city": "Hyderabad",
+            "state": "Telangana",
+            "zip": "500085"
+        }
+    }
     ]
 }
