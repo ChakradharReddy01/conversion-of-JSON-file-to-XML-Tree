@@ -1,27 +1,52 @@
 <?xml version="1.0" ?>
 <object>
-    <object name="organization">
-        <string name="Securin">Securin</string>
-        <string type="Inc">Inc</string>
-        <number name="building_number">4</number>
-        <number name="floating">-17.4</number>
-        <null name="null_test"/>
-    </object>
-    <boolean name="security_related">true</boolean>
-    <array name="array_example0">
-        <string>red</string>
-        <string>green</string>
-        <string>blue</string>
-        <string>black</string>
-    </array>
-    <array name="array_example1">
+    <number name="number">100</number>
+    <string string="hello world">hello world</string>
+    <boolean name="boolean">true</boolean>
+    <array name="array">
         <number>1</number>
-        <string>red</string>
-        <array name="array">
-            <array name="array">
-                <object>{'nested': True}</object>
+        <number>2</number>
+        <number>3</number>
+        <number>4</number>
+        <number>5</number>
+    </array>
+    <null name="null"/>
+    <object>
+        <string key="value">value</string>
+        <object name="profile">
+            <string firtname="Bekkem">Bekkem</string>
+            <string lastname="Chakradhar">Chakradhar</string>
+            <number name="age">21</number>
+            <array name="college">
+                <string>sathyabama university</string>
+                <object name="dict">
+                    <string city="chennai">chennai</string>
+                    <string state="tamiladu">tamiladu</string>
+                    <number name="zip">600119</number>
+                </object>
             </array>
-            <object>{'obj': False}</object>
-        </array>
+        </object>
+    </object>
+    <array name="nestedArray">
+        <object name="dict">
+            <number name="id">1</number>
+            <string name="Chakradhar_reddy">Chakradhar_reddy</string>
+            <object name="permanent_address">
+                <string street="Sai_nagar">Sai_nagar</string>
+                <string city="Kurnool">Kurnool</string>
+                <string state="Andhra pradesh">Andhra pradesh</string>
+                <string zip="518002">518002</string>
+            </object>
+        </object>
+        <object name="dict">
+            <number name="id">2</number>
+            <string name="Chakradhar_reddy_2">Chakradhar_reddy_2</string>
+            <object name="present_address">
+                <string street="Hyderabad">Hyderabad</string>
+                <string city="Hyderabad">Hyderabad</string>
+                <string state="Telangana">Telangana</string>
+                <string zip="500085">500085</string>
+            </object>
+        </object>
     </array>
 </object>
